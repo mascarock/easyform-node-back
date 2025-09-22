@@ -1,0 +1,23 @@
+{
+  "name": "easyform-be-nodejs",
+  "version": "1.0.0",
+  "description": "Lightweight Express backend for EasyForm, optimized for Vercel",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0"
+  }
+}
